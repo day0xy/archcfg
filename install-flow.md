@@ -221,8 +221,7 @@ Section "InputClass"
         MatchIsTouchpad "on"
 
         Option "TapButton1" "1"            #单指敲击产生左键事件
-        Option "TapButton2" "2"            #双指敲击产生中键事件
-        Option "TapButton3" "3"            #三指敲击产生右键事件
+        Option "TapButton2" "3"            #双指敲击产生中键事件
 
         Option "VertEdgeScroll" "on"       #滚动操作：横向、纵向、环形
         Option "VertTwoFingerScroll" "on"
@@ -239,6 +238,7 @@ Section "InputClass"
         Option "PalmMinWidth" "3"          #认定为手掌的最小宽度
         Option "PalmMinZ" "200"            #认定为手掌的最小压力值
 EndSection
+
 ```
 
 
