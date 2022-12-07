@@ -79,7 +79,6 @@ yay -S metasploit nmap sqlmap wireshark-qt ettercap-gtk  net-tools dsniff 010edi
 yay -S dirb wfuzz arp-scan exploitdb  wpscan john  ffuf stegsolve stegseek steghide hashcat opencl-amd opencl-amd-dev partitionmanager sqlitebrowser  qbittorrent
 
 
-
 yay -S vmware-workstation
 sudo systemctl enable --now vmware-networks.service vmware-usbarbitrator.service
 ```
@@ -88,6 +87,26 @@ sudo systemctl enable --now vmware-networks.service vmware-usbarbitrator.service
 
 ```
 sudo usermod -a -G docker,wireshark,vboxusers day0xy
+```
+
+### 显卡驱动
+
+amd核显
+
+```
+sudo pacman -S mesa lib32-mesa xf86-video-amdgpu vulkan-radeon lib32-vulkan-radeon libva-mesa-driver lib32-libva-mesa-driver mesa-vdpau lib32-mesa-vdpau
+```
+
+英伟达独显
+
+```
+sudo pacman -S nvidia nvidia-settings lib32-nvidia-utils
+```
+
+笔记本双显卡 另外安装
+
+```
+yay -S optimus-manager optimus-manager-qt
 ```
 
 
@@ -120,7 +139,7 @@ git remote add origin git@github.com:DearjhonXXX9/archcfg.git
 ### pip包
 
 ```
-pip install 
+pip install -r
 ```
 
 
