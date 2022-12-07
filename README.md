@@ -1,6 +1,6 @@
 ### ArchLinux dotfiles
 
-Mine config
+personal config
 
 
 
