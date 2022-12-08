@@ -51,7 +51,6 @@ sudo vim /etc/environment
 
 添加以下内容
 
-
 GTK_IM_MODULE=fcitx
 QT_IM_MODULE=fcitx
 XMODIFIERS=@im=fcitx
@@ -246,3 +245,11 @@ EndSection
 
 
 logout
+
+
+
+#### 虚拟机的选择
+
+windows的话使用vmware
+
+kali用virtualbox 我觉得性能更好点
