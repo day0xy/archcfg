@@ -225,7 +225,9 @@ Section "InputClass"
 
         Option "VertEdgeScroll" "on"       #滚动操作：横向、纵向、环形
         Option "VertTwoFingerScroll" "on"
-        Option "HorizEdgeScroll" "on"
+        Option "VertScrollDelta"          "-111"	#natural scrolling
+        Option "HorizScrollDelta"         "-111"
+        Option "HorizEdgeScroll" "on"		
         Option "HorizTwoFingerScroll" "on"
         Option "CircularScrolling" "on"  
         Option "CircScrollTrigger" "2"
