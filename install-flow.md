@@ -67,15 +67,15 @@ sudo pacman -S adobe-source-han-serif-cn-fonts nerd-fonts-complete
 sudo pacman -S noto-fonts-cjk noto-fonts-emoji noto-fonts-extra 
 yay -S chromium   google-chrome  
 sudo pacman -S p7zip unrar unarchiver lzop lrzip 
-yay -S virtualbox-ext-oracle  lx-music-desktop-bin gwenview spectacle kdenlive    
+yay -S virtualbox-ext-oracle  lx-music-desktop-bin gwenview spectacle
 
 yay -S  obs-studio  okular kdeconnect icalingua++ jdk php php-cgi python-pip
-yay -S docker vlc man zotero gimp openshot burpsuite
+yay -S docker vlc man   burpsuite
 
      
 
-yay -S metasploit nmap sqlmap wireshark-qt ettercap-gtk  net-tools dsniff 010editor enum4linux  gobuster
-yay -S dirb wfuzz arp-scan exploitdb  wpscan john  ffuf stegsolve stegseek steghide hashcat opencl-amd opencl-amd-dev partitionmanager sqlitebrowser  qbittorrent
+yay -S metasploit nmap sqlmap wireshark-qt ettercap-gtk  net-tools dsniff 010editor enum4linux
+yay -S  wfuzz arp-scan exploitdb   john  ffuf   partitionmanager   qbittorrent
 
 
 yay -S vmware-workstation
@@ -231,13 +231,6 @@ Section "InputClass"
         Option "CircularScrolling" "on"  
         Option "CircScrollTrigger" "2"
 
-        Option "EmulateTwoFingerMinZ" "40" #精确度
-        Option "EmulateTwoFingerMinW" "8"
-        Option "CoastingSpeed" "20"        #触发快速滚动的滚动速度
-
-        Option "PalmDetect" "1"            #避免手掌触发触摸板
-        Option "PalmMinWidth" "3"          #认定为手掌的最小宽度
-        Option "PalmMinZ" "200"            #认定为手掌的最小压力值
 EndSection
 
 ```
