@@ -1,4 +1,4 @@
-### 换源
+换源
 
  /etc/pacman.conf 
 
@@ -76,7 +76,7 @@ yay -S docker vlc man   burpsuite
 
 yay -S metasploit nmap sqlmap wireshark-qt ettercap-gtk  net-tools dsniff 010editor enum4linux
 yay -S  wfuzz arp-scan exploitdb   john  ffuf   partitionmanager   qbittorrent
-
+yay -S spotify-adblock-git 
 
 yay -S vmware-workstation
 sudo systemctl enable --now vmware-networks.service vmware-usbarbitrator.service
