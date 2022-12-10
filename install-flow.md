@@ -67,7 +67,7 @@ sudo pacman -S adobe-source-han-serif-cn-fonts nerd-fonts-complete
 sudo pacman -S noto-fonts-cjk noto-fonts-emoji noto-fonts-extra 
 yay -S chromium   google-chrome  
 sudo pacman -S p7zip unrar unarchiver lzop lrzip 
-yay -S virtualbox-ext-oracle  lx-music-desktop-bin gwenview spectacle
+yay -S virtualbox-ext-oracle  lx-music-desktop-bin gwenview spectacle autotiling
 
 yay -S  obs-studio  okular kdeconnect icalingua++ jdk php php-cgi python-pip
 yay -S docker vlc man   burpsuite
